@@ -8,9 +8,9 @@ const toggleDark = () => {
 }
 
 const toPEN = () => {
-    location.href = "../index.html"
+    location.href = "../../index.html"
 }
 
 const toUSA = () => {
-    location.href = "en/index.html"
+    location.href = "./src/en/index.html"
 }
