@@ -10,12 +10,13 @@
 </head>
 <body class="font-noto text-default dark:text-dark-default transition-colors duration-500">
 
-  <!-- ENCABEZADO -->
-  <header class="fixed bg-gradient-to-t from-primary to-secondary w-full z-10 shadow-lg dark:from-dark-primary dark:to-dark-secondary">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!-- <header class="fixed bg-gradient-to-t from-primary to-secondary w-full z-10 shadow-lg dark:from-dark-primary dark:to-dark-secondary">
   
     <div class="flex justify-between items-center h-20 md:w-[80%] md:m-auto">
   
-      <img class="w-20 ml-4 text-white dark:hidden" src="./imgs/logo.webp" alt="logo-magia-madera">
+      <img class="w-20 ml-4 text-white dark:hidden" src="https://i.imgur.com/ufSjp2D.png" alt="logo-magia-madera">
       <img class="w-20 ml-4 text-white hidden dark:block" src="./imgs/dark-logo.webp" alt="logo-magia-madera">
   
       <ul id="menu"
@@ -46,8 +47,6 @@
   
   </header>
 
-
-  <!-- APARTADO PRINCIPAL -->
   <main>
     
     <section id="home"
@@ -218,7 +217,6 @@
     <a class="text-5xl flex rounded-full justify-center items-center w-16 h-16 bg-gradient-to-br from-[#25D366] to-[#6eaf5a] shadow-2xl" href="https://wa.me/51949476059?text=Hola! Deseo información sobre su negocio" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
   </div>
 
-  <!-- PIE DE PÁGINA -->
   <footer id="contact" class="bg-secondary dark:bg-dark-secondary py-20 px-8">
     <div class="contenido md:w-[80%] lg:w-[60%] md:mx-auto flex flex-col gap-8">
       <h2 class="text-3xl font-bold text-center">CONTÁCTANOS</h2>
@@ -229,43 +227,9 @@
         <strong>Whatsapp:</strong> 644 145 145 <br>
       </p>
     </div>
-  </footer>
+  </footer> -->
 
   <script src="https://kit.fontawesome.com/3cd8c90f36.js" crossorigin="anonymous"></script>
-  <script src="./src/app.js"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      content: ["./src/**/*.{html,js}"],
-      theme: {
-        
-        fontFamily: {
-          'lato': 'Lato, sans-serif',
-          'outfit': 'Outfit, sans-serif',
-          'noto':'Noto Sans, sans-serif',
-        },
-        extend: {
-          colors: {
-            'default': 'black',
-            'primary': '#e3d9b1',
-            'secondary': '#f1ecca',
-            'hover': '#d5c599',
-            'active': '#f1ecca',
-            'dark-default': 'white',
-            'dark-primary': '#2E4053',
-            'dark-secondary': '#26394e',
-            'dark-hover': '#416183',
-          },
-          backgroundImage: {
-            'hero-pattern': "url(./imgs/carpinteria-2.jpg)",
-            'drywall': "url(https://img.freepik.com/foto-gratis/hombre-vista-frontal-trabajando-vistiendo-equipo-proteccion_23-2148784098.jpg?w=1380&t=st=1699645799~exp=1699646399~hmac=b9ea6f1abfc54f6bdc5958dde29ea3a78ac890b6d0ccbd942b94b08bdf716f76)",
-            'wood': "url(https://img.freepik.com/foto-gratis/vista-lateral-carpintero-femenino-estudio-sierra-electrica_23-2148813332.jpg?w=1480&t=st=1699645920~exp=1699646520~hmac=6431648b52bc7b6b6cf827799b7af15393084bd69e128f8c88fa7af6cd44a45a)",
-            'melamine': "url(https://img.freepik.com/foto-gratis/primer-plano-conjunto-cajones-madera_181624-25200.jpg?w=1380&t=st=1699646195~exp=1699646795~hmac=281cfd6dace5560f0d2b6c0bc04b71027b9980aa8e5a110e8e145d3671e27a73)",
-          }
-        }
-      }
-    }
-  </script>
+  <script src="../src/app.js"></script>
 </body>
 </html>

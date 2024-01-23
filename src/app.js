@@ -14,3 +14,5 @@ const toPEN = () => {
 const toUSA = () => {
     location.href = "./src/en/index.html"
 }
+
+console.log('a')
