@@ -1,8 +1,17 @@
+import { Header } from "./Header";
+import { Main } from "./Main";
+import { Footer } from "./Footer";
+import { WhatsappButton } from "./WhatsappButton";
+
 function App() {
-  return (
-    <div className="Yellow">
-      <div className="text-5xl bg-yellow-900">HABLA CAUSAM</div>
-    </div>
+
+   return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+      <WhatsappButton />
+    </>
   );
 }
 
