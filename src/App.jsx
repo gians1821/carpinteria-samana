@@ -5,7 +5,7 @@ import { WhatsappButton } from "./WhatsappButton";
 
 function App() {
 
-   return (
+  return (
     <>
       <Header />
       <Main />

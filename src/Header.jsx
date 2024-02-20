@@ -1,26 +1,26 @@
 import { NavComponent } from "./NavComponent"
 import { Logo } from "./Logo"
+import { useEffect, useState } from "react"
 
 function Header() {
 
-    // const toggleDark = useRef(null)
-    // const toggleMenu = useRef(null)
-    
-    // useEffect(() => {
-    //     const $toggleDark = toggleDark.current
-    //     const $toggleMenu = toggleMenu.current
+    const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
 
-    //     $toggleDark.addEventListener('click', () => {
-    //         document.querySelector("html").classList.toggle('dark')
-    //         console.log('a')
-    //     })
+    const [darkMode, setDarkMode] = useState(prefersDarkMode)
+
+    useEffect(() => {
+        document.documentElement.classList.toggle('dark', darkMode)
+    }, [darkMode])
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const $toggleDark = document.querySelector('#toggleDark')
+        $toggleDark.addEventListener('click', () => {
+            setDarkMode(!darkMode)
+            console.log("AA");
+        })
+    })
     
-    //     $toggleMenu.addEventListener('click', () => {
-    //         document.querySelector("#menu").classList.toggle('right-0')
-    //         document.querySelector("#menu").classList.toggle('-right-full')
-    //     })
-    // }, []) 
-        
     return(
         <header className="fixed bg-gradient-to-t from-primary to-secondary w-full z-10 shadow-lg dark:from-dark-primary dark:to-dark-secondary">
             
@@ -45,7 +45,7 @@ function Header() {
                     </button>
                     </div>
                     <div>
-                    <button className="w-12 h-12 flex items-center bg-transparent justify-center hover:bg-hover dark:hover:bg-dark-hover rounded"><i className="fa-solid fa-circle-half-stroke text-2xl"></i></button>
+                        <button id="toggleDark" className="w-12 h-12 flex items-center bg-transparent justify-center hover:bg-hover dark:hover:bg-dark-hover rounded"><i className="fa-solid fa-circle-half-stroke text-2xl"></i></button>
                     </div>
                 </ul>
 
