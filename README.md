@@ -1,4 +1,4 @@
-# [Landing Page](https://gians1821.github.io/carpinteria-samana/) Carpintería Magia Madera
+# [[Landing Page]](https://gians1821.github.io/carpinteria-samana/) Carpintería Magia Madera
 
 Creación de una landing page básica utilizando html, css y js. Aquí el link de la [página](https://gians1821.github.io/carpinteria-samana/).
 
