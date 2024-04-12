@@ -1,0 +1,9 @@
+{
+  "homepage": "https://gians1821.github.io/carpinteria-samana",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  }
+}
