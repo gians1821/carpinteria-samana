@@ -1,0 +1,61 @@
+{
+    "titles": {
+        "main-title": "CARPINTERÍA MAGIA MADERA",
+        "head-title": "Magia Madera Carpentry"
+    },
+    "navigation-bar": {
+        "item-1": "HOME",
+        "item-2": "ABOUT US",
+        "item-3": "REQUEST FORM",
+        "item-4": "SERVICES",
+        "item-5": "CONTACT US"
+    },
+    "home": {
+        "title": "ABOUT US",
+        "description": "We are a family-owned carpentry business, where we create unique furniture and offer custom services for homes. With personalized attention and craftsmanship, we transform spaces and build lasting stories."
+    },
+    "services": {
+        "title": "OUR SERVICES",
+        "subtitle-1": " Tailoring",
+        "description-1": "Each piece we craft carries the story of careful material selection and the meticulous process of design and construction. Each project is an expression of dedication and love for the craft.",
+        "subtitle-2": " Mantaining",
+        "description-2": "Our philosophy regarding maintenance is simple but effective: care for each piece as if it were unique. Our goal is for your furniture not only to endure over time but also to remain a testament to quality and good taste.",
+        "subtitle-3": " Restructuring",
+        "description-3": "If you are looking to transform a space or give a new life to your furniture, we offer restructuring services. Let us help you create an environment that reflects your style and meets your needs."
+    },
+    "tools": {
+        "title": "OUR TOOLS",
+        "subtitle-1": "DRYWALL",
+        "subtitle-2": "WOOD",
+        "subtitle-3": "MELAMINE"
+    },
+    "reviews": {
+        "title": "OUR REVIEWS",
+        "person-1": "SERGIO",
+        "opinion-1": "\"Magia Madera turns carpentry into a charming art; their furniture is true magical pieces that transform any space.\"",
+        "person-2": "PATRICIA",
+        "opinion-2": "\"I recommend Magia Madera for those looking for furniture that dazzles with its creativity and exceptional quality.\"",
+        "person-3": "PEDRO",
+        "opinion-3": "\"In Magia Madera, carpentry becomes a magical experience; each piece of furniture is a unique and lasting masterpiece.\"",
+        "person-4": "BENITO",
+        "opinion-4": "\"The magic of Magia Madera resides in its furniture, where exceptional craftsmanship and captivating design come together in perfect harmony.\"",
+        "person-5": "PEPE",
+        "opinion-5": "\"Magia Madera creates tangible magic in each piece of furniture, offering not only furniture but also enchantment for your home.\"",
+        "person-6": "PELAEZ",
+        "opinion-6": "\"Enchanted with the magic of Magia Madera; its furniture is much more than objects, they are spells of elegance and quality.\""
+    },
+    "form": {
+        "title": "SUBMIT YOUR INQUIRY",
+        "label-1": "Name:",
+        "label-2": "Cellphone number:",
+        "label-3": "Email:",
+        "label-4": "Detail your inquiry:"        
+    },
+    "contact": {
+        "title": "CONTACT US",
+        "line-1": "Calle El Cedro 873 Trujillo, Perú ",
+        "line-2": "<strong>Email:</strong> magia@madera.com",
+        "line-3": "<strong>Cellphone:</strong> 937 87 76 30",
+        "line-4": "<strong>Whatsapp:</strong> 644 145 145"
+    }
+}
