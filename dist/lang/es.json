@@ -1,0 +1,61 @@
+{
+    "titles": {
+        "main-title": "CARPINTERÍA MAGIA MADERA",
+        "head-title": "Carpintería Magia Madera"
+    },
+    "navigation-bar": {
+        "item-1": "INICIO",
+        "item-2": "¿QUIÉNES SOMOS?",
+        "item-3": "REALIZA TU CONSULTA",
+        "item-4": "SERVICIOS",
+        "item-5": "CONTÁCTANOS"
+    },
+    "home": {
+        "title": "¿QUIÉNES SOMOS?",
+        "description": "Somos un negocio familiar de carpintería, donde creamos muebles únicos y ofrecemos servicios a medida para hogares. Con atención personalizada y artesanía, transformamos espacios y construimos historias duraderas."
+    },
+    "services": {
+        "title": "NUESTROS SERVICIOS",
+        "subtitle-1": " Confección",
+        "description-1": "Cada pieza que elaboramos lleva consigo la historia de cuidadosa selección de materiales y el meticuloso proceso de diseño y construcción. Cada proyecto es una expresión de dedicación y amor por el oficio.",
+        "subtitle-2": " Mantenimiento",
+        "description-2": "Nuestra filosofía en cuanto al mantenimiento es simple pero efectiva: cuidar cada pieza como si fuera única. Nuestro objetivo es que tus muebles no solo perduren en el tiempo, sino que también sigan siendo un testimonio de calidad y buen gusto.",
+        "subtitle-3": " Reestructuración",
+        "description-3": "Ya sea restaurando ese antiguo sillón heredado con un valor sentimental inigualable o renovando muebles desgastados por el uso diario, nuestro equipo de expertos carpinteros se dedica a devolverles vida y funcionalidad."
+    },
+    "tools": {
+        "title": "NUESTRAS HERRAMIENTAS",
+        "subtitle-1": "DRYWALL",
+        "subtitle-2": "MADERA",
+        "subtitle-3": "MELAMINA"
+    },
+    "reviews": {
+        "title": "NUESTRAS OPINIONES",
+        "person-1": "SERGIO",
+        "opinion-1": "\"Magia Madera convierte la carpintería en un arte encantador; sus muebles son verdaderas piezas mágicas que transforman cualquier espacio.\"",
+        "person-2": "PATRICIA",
+        "opinion-2": "\"Recomiendo Magia Madera para aquellos que buscan muebles que deslumbran con su creatividad y calidad excepcional.\"",
+        "person-3": "PEDRO",
+        "opinion-3": "\"En Magia Madera, la carpintería se convierte en una experiencia mágica; cada mueble es una obra maestra única y duradera.\"",
+        "person-4": "BENITO",
+        "opinion-4": "\"La magia de Magia Madera reside en sus muebles, donde la artesanía excepcional y el diseño cautivador se unen en perfecta armonía.\"",
+        "person-5": "PEPE",
+        "opinion-5": "\"Magia Madera crea magia tangible en cada pieza de mobiliario, ofreciendo no solo muebles, sino también encantamiento para tu hogar.\"",
+        "person-6": "PELAEZ",
+        "opinion-6": "\"Encantado con la magia de Magia Madera; sus muebles son mucho más que objetos, son hechizos de elegancia y calidad.\""
+    },
+    "form": {
+        "title": "REALIZA TU CONSULTA",
+        "label-1": "Nombre:",
+        "label-2": "Número de celular:",
+        "label-3": "Correo electrónico:",
+        "label-4": "Descripción de lo que desea:"        
+    },
+    "contact": {
+        "title": "CONTÁCTANOS",
+        "line-1": "Calle El Cedro 873 Trujillo, Perú ",
+        "line-2": "<strong>Email:</strong> magia@madera.com",
+        "line-3": "<strong>Teléfono:</strong> 937 87 76 30",
+        "line-4": "<strong>Whatsapp:</strong> 644 145 145"
+    }
+}
